@@ -1,7 +1,7 @@
 import Vue from "vue";
 import {createStore} from "./vue.data.js";
 
-const store = createStore(500);
+const store = createStore(50);
 
 Vue.component("game-list", {
     props: ["games"],

@@ -13,7 +13,7 @@ class App extends React.Component {
     }
 
     componentDidMount() {
-        const games$ = createGames(500);
+        const games$ = createGames(50);
         this.sub = games$.subscribe((games) => this.setState({ games }));
     }
 

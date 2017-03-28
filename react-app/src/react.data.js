@@ -2,7 +2,7 @@ import faker from "faker";
 import Rx from "rx";
 import Immutable from "immutable";
 
-const EVENT_INTERVAL = 1000;
+const EVENT_INTERVAL = 100;
 
 export function createGames(noOfGames = 5) {
     const games = Immutable.Range(0, noOfGames)
